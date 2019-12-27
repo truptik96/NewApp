@@ -1,0 +1,13 @@
+.dropdown-toggle,.dropdown-item{
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 768px) {
+  .pass{
+      margin-top: 6px; 
+  }
+}
+
+@media only screen and (min-width:801px) {
+ 
+}

@@ -1,0 +1,79 @@
+<nav class="navbar navbar-default  navbar-expand-lg navbar-dark bg-primary">
+<<<<<<< HEAD
+  <div class="container">  
+    <div *ngIf="loggedIn()" class=" navbar-header col-md-2">        
+      <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+    <a class="navbar-brand ml-2" [routerLink]="['/home']">Food App</a>
+    </div>
+
+    <div *ngIf="!loggedIn()" class=" navbar-header col-md-5">        
+      <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <a class="navbar-brand ml-2" [routerLink]="['/home']">Food App</a>
+    </div>
+     
+  
+  <div class=" collapse navbar-collapse col-md-10" [collapse]=isCollapsed>
+    
+    <ul *ngIf="loggedIn()" class="dropdown-menu-right navbar-nav mr-auto mt-2 mt-lg-0">
+=======
+  <div class="container">
+    <div class="navbar-header">    
+      <a class="navbar-brand" [routerLink]="['/home']">Food App</a>
+      <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+      <!-- <a class="navbar-brand" [routerLink]="['/home']">Food App</a> -->
+  
+  <div class="collapse navbar-collapse" [collapse]=isCollapsed>
+    <ul *ngIf="loggedIn()" class="navbar-nav mr-auto mt-2 mt-lg-0">
+>>>>>>> d702adf5e127ff358fad8ba2750362ce1377c348
+      <li class="nav-item active" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/Foodlist']">Menus</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/lists']">List</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/messages']">Messages</a>
+      </li>
+      <li class="nav-item logoutlink" routerLinkActive="active">
+        <a class="nav-link" (click)="logout()">Logout</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" (click)="logout()">Logout</a>
+      </li> -->
+      
+    </ul>
+    <!-- <div *ngIf="loggedIn()" class="nav-item" dropdown>
+      <a class="dropdown-toggle text-light" dropdownToggle>
+        Welcome {{authService.decodedToken.unique_name | titlecase}}
+      </a>
+    
+      <div class="dropdown-menu mt-3" *bsDropdownMenu>
+        <a class="dropdown-item" href="#"><i class="fa fa-user"></i>Edit Porofile</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" (click)="logout()"><i class="fa fa-sign-out"></i>Logout</a>
+      </div> 
+    </div>-->
+    <div class="nav navbar-nav navbar-right" >
+    <form *ngIf="!loggedIn()" #loginForm="ngForm" class="form-inline my-2 my-lg-0" (ngSubmit)="login()">
+      <input class="form-control user mr-sm-2" name="username" type="text"  placeholder="Username" required [(ngModel)]="model.username">
+      <input class="form-control pass mr-sm-2" name="password" type="password"  placeholder="Password" required [(ngModel)]="model.password">
+      <button [disabled]= "!loginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+  </div>
+<<<<<<< HEAD
+  </div>
+=======
+>>>>>>> d702adf5e127ff358fad8ba2750362ce1377c348
+</div>
+</nav>
+
+
+
+

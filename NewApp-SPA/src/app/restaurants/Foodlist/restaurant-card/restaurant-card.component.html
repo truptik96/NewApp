@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+<div class="card mb-4" >
+  
+  <div class="card-img-wrapper" [routerLink]="['/restaurants/', restaurant.id] " style=" cursor: pointer;">
+    <img class="card-img-top" style="height: 200px;" src="{{restaurant.url}}" alt="{{restaurant.name}}">
+  </div>
+  <div class="card-body p-1" >
+    
+      <label class="card-title text-left ml-1" style="font-weight: bold; margin-bottom: 1pt;cursor: pointer;" [routerLink]="['/restaurants/', restaurant.id] ">
+      {{restaurant.name}}
+    </label><br>
+    <label class="text-left ml-1" style="font-size: 14px; margin-bottom: 0; ">{{restaurant.type}}</label><br>
+    <label class="text-left ml-1" style="font-size: 14px; margin-bottom:0;">{{restaurant.address}}</label>
+    
+  
+    
+  
+=======
+<div class="card mb-4">
+  
+  <div class="card-img-wrapper">
+    <img class="card-img-top" style="height: 200px;" src="{{restaurant.url}}" alt="{{restaurant.name}}">
+  </div>
+  <div class="card-body p-1">
+    <h6 class="card-title text-center mb-1"><i class="fas fa-coffee"></i>
+      <li [routerLink]="['/restaurants/', restaurant.id ]">
+      {{restaurant.name}}
+    </li>
+    </h6>
+    <p class="card-text text-muted text-center">{{restaurant.address}}</p>
+  </div>
+>>>>>>> d702adf5e127ff358fad8ba2750362ce1377c348
+</div>

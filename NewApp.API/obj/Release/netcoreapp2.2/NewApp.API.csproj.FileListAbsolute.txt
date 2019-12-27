@@ -1,0 +1,16 @@
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\NewApp.API.deps.json
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\NewApp.API.runtimeconfig.json
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\NewApp.API.runtimeconfig.dev.json
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\NewApp.API.dll
+C:\Users\Elpro 2\NewApp\NewApp.API\bin\Release\netcoreapp2.2\NewApp.API.pdb
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.csprojAssemblyReference.cache
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.RazorAssemblyInfo.cache
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.RazorAssemblyInfo.cs
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.AssemblyInfoInputs.cache
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.AssemblyInfo.cs
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.RazorTargetAssemblyInfo.cache
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.dll
+C:\Users\Elpro 2\NewApp\NewApp.API\obj\Release\netcoreapp2.2\NewApp.API.pdb
